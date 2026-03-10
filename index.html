@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PowerFit Gym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">PowerFit</div>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>Welcome to PowerFit Gym</h1>
+    <p>Get Strong. Stay Fit. Live Healthy.</p>
+    <button id="joinBtn">Join Now</button>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+    <div class="service-box">
+        <h3>Cardio Training</h3>
+        <p>Improve your stamina and heart health.</p>
+    </div>
+    <div class="service-box">
+        <h3>Strength Training</h3>
+        <p>Build muscles with expert guidance.</p>
+    </div>
+    <div class="service-box">
+        <h3>Personal Coaching</h3>
+        <p>Get customized workout plans.</p>
+    </div>
+</section>
+
+<!-- Trainers Section -->
+<section id="trainers">
+    <h2>Our Trainers</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>Nikita Patil</h3>
+            <p>Certified Fitness Coach</p>
+        </div>
+        <div class="service-box">
+            <h3>Payal Deshmukh</h3>
+            <p>Yoga & Cardio Expert</p>
+        </div>
+        <div class="service-box">
+            <h3>Yash Sharma</h3>
+            <p>Strength Specialist</p>
+        </div>
+    </div>
+</section>
+
+<!-- Membership Plans -->
+<section id="plans">
+    <h2>Membership Plans</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>Basic</h3>
+            <p>₹999 / Month</p>
+        </div>
+        <div class="service-box">
+            <h3>Premium</h3>
+            <p>₹1999 / Month</p>
+        </div>
+        <div class="service-box">
+            <h3>Annual</h3>
+            <p>₹9999 / Year</p>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="services">
+        <div class="service-box">
+            <p>Email: powerfit@gmail.com</p>
+            <p>Phone: +91 9876543210</p>
+        </div>
+    </div>
+
+    <!-- Google Map -->
+    <iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2188.6670257592164!2d75.05790647115523!3d21.047176252160526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd92c2a9a360167%3A0x413b51aedfea6bf3!2sBAPS%20Shri%20Swaminarayan%20Mandir%2C%20Amalner!5e1!3m2!1sen!2sin!4v1771861820308!5m2!1sen!2sin"
+width="100%" 
+height="350" 
+style="border:0;" 
+allowfullscreen="" 
+loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Join PowerFit Gym</h2>
+
+        <form>
+            <input type="text" placeholder="Full Name" required><br><br>
+            <input type="email" placeholder="Email" required><br><br>
+                <input type="Address" placeholder="Address" required><br><br>
+            <input type="tel" placeholder="Phone Number" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+</div>
+
+<!-- Footer -->
+<footer style="background:#111; color:white; text-align:center; padding:15px;">
+    © 2026 PowerFit Gym | All Rights Reserved
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
